@@ -39,3 +39,48 @@ body{
     outline: none;
     margin-top: 8px;
 }
+
+.button-cta{
+    height: 40px;
+    background-color: rgb(16, 158, 16);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #ebeaea;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container-password{
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #ebeaea;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.password{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebeaea;
+    border: 1px solid #313131;
+    transition: transform 0.5s;
+}
+
+.password:hover{
+    transform: scale(1.05)
+}
