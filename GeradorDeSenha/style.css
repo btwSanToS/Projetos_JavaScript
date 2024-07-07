@@ -85,7 +85,7 @@ body {
   transform: scale(1.05);
 }
 
-.tooltip{
+.tooltip {
   color: #ebeaea;
   position: relative;
   top: 20px;
@@ -99,7 +99,11 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
-.container-password:hover .tooltip{
+.hide {
+  display: none;
+}
+
+.container-password:hover .tooltip {
   visibility: visible;
   bottom: 50px;
   opacity: 1;
